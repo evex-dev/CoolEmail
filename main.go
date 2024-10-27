@@ -16,13 +16,10 @@ func main() {
 	Domain := strings.Split(Email, "@")[1]
 	Discord := "@" + strings.Split(strings.Split(Email, "@")[1], ".")[0]
 
-	fmt.Println(Name, Domain, Discord)
-
 	Etitle := "Email"
 	Ntitle := "Name"
 	Dtitle := "Domain"
 	Distitle := "Discord"
-	fmt.Println(Email)
 
 	EmailDesc := GenDesc(Email, Etitle, true)
 	NameDesc := GenDesc(Name, Ntitle, true)
