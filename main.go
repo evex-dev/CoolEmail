@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("source : https://www.reddit.com/r/Design/comments/14c4nw/reddit_this_is_my_business_card/?st=JF7OQ2FR&sh=58e05f66")
+	fmt.Println("Origin : https://www.reddit.com/r/Design/comments/14c4nw/reddit_this_is_my_business_card/?st=JF7OQ2FR&sh=58e05f66")
 
 	fmt.Printf("Email >")
 	var Email string
